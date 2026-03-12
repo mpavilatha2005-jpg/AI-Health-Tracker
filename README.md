@@ -44,7 +44,7 @@ A mini web application that analyzes daily lifestyle habits and predicts overall
 ## 📷 Project Preview
 
 ### Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ### AI Prediction
 ![Prediction](ai-prediction.png)
