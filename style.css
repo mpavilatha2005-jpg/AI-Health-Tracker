@@ -1,0 +1,119 @@
+/* GENERAL STYLES */
+body{
+    font-family:Arial;
+    text-align:center;
+    background:#eef6ff;
+    padding:20px;
+}
+
+input{
+    padding:10px;
+    margin:8px;
+    width:200px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:10px;
+    margin:10px;
+    background:#27ae60;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#1e8449;
+}
+
+/* DASHBOARD CARDS */
+.dashboard{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:150px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ICONS IN CARDS */
+.card h3 i{
+    margin-right:5px;
+}
+
+/* HEALTH METER BAR */
+.meter{
+    width:300px;
+    height:25px;
+    background:#ddd;
+    margin:auto;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+#healthBar{
+    height:25px;
+    width:0;
+    background:green;
+    transition:1s;
+}
+
+/* LOADING ANIMATION */
+.loading{
+    display:none;
+    font-weight:bold;
+    color:#3498db;
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0.3;}
+    100%{opacity:1;}
+}
+
+/* DARK MODE */
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark input{
+    background:#333;
+    color:white;
+    border:1px solid #555;
+}
+
+.dark .card{
+    background:#1e1e1e;
+}
+
+/* RESPONSIVE DESIGN */
+@media(max-width:600px){
+
+    input{
+        width:90%;
+    }
+
+    button{
+        width:90%;
+    }
+
+    .meter{
+        width:90%;
+    }
+
+    canvas{
+        width:100%;
+    }
+
+}

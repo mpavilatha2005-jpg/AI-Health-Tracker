@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Lifestyle Health Predictor</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<h1>AI Lifestyle & Health Tracker</h1>
+
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<h2>Health Dashboard</h2>
+
+<div class="dashboard">
+
+<div class="card">
+<h3><i class="fa-solid fa-heart" style="color:red"></i> Health Score</h3>
+<p id="summaryScore">--</p>
+</div>
+
+<div class="card">
+<h3><i class="fa-solid fa-weight-scale"></i> BMI</h3>
+<p id="summaryBMI">--</p>
+</div>
+
+<div class="card">
+<h3><i class="fa-solid fa-chart-line"></i> Health Meter</h3>
+<p id="meterPercent">--</p>
+</div>
+
+<div class="card">
+<h3><i class="fa-solid fa-fire" style="color:orange"></i> Daily Streak</h3>
+<p id="streak">0 🔥</p>
+</div>
+
+</div>
+
+<hr>
+
+<h2>Daily Lifestyle Input</h2>
+
+<label>Study Hours</label>
+<input type="number" id="study"><br>
+
+<label>Exercise Minutes</label>
+<input type="number" id="exercise"><br>
+
+<label>Sleep Hours</label>
+<input type="number" id="sleep"><br>
+
+<label>Healthy Meals</label>
+<input type="number" id="food"><br>
+
+<button onclick="predictHealth()">Check Health Score</button>
+
+<h2 id="result"></h2>
+
+<hr>
+
+<h2>AI Health Prediction</h2>
+
+<label>Water Glasses Per Day</label>
+<input type="number" id="waterInput"><br>
+
+<button onclick="predictAIHealth()">Predict Health</button>
+
+<p id="aiResult"></p>
+
+<div id="loading" class="loading">
+AI is analyzing your lifestyle data...
+</div>
+
+<hr>
+
+<h2>BMI Calculator</h2>
+
+<label>Height (cm)</label>
+<input type="number" id="height"><br>
+
+<label>Weight (kg)</label>
+<input type="number" id="weight"><br>
+
+<button onclick="calculateBMI()">Calculate BMI</button>
+
+<p id="bmiResult"></p>
+
+<hr>
+
+<h2>Health Meter</h2>
+
+<div class="meter">
+<div id="healthBar"></div>
+</div>
+
+<p id="meterPercentBox"></p>
+
+<hr>
+
+<h2>Weekly Fitness Chart</h2>
+
+<canvas id="healthChart"></canvas>
+
+<p id="diet"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
