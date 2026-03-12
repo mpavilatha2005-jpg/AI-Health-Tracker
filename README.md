@@ -2,7 +2,6 @@
 
 A mini web application that analyzes daily lifestyle habits and predicts overall health status.
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,6 @@ A mini web application that analyzes daily lifestyle habits and predicts overall
 ✔ Daily Streak Tracker  
 ✔ Dark Mode support  
 
----
 
 ## 🛠 Technologies Used
 
@@ -23,7 +21,6 @@ A mini web application that analyzes daily lifestyle habits and predicts overall
 - JavaScript
 - Chart.js
 
----
 
 ## 📊 How It Works
 
@@ -43,13 +40,18 @@ A mini web application that analyzes daily lifestyle habits and predicts overall
    - Weekly fitness chart
    - Health meter visualization
 
----
 
 ## 📷 Project Preview
 
-(Add your screenshot here)
+### Dashboard
+![Dashboard](dashboard.png)
 
----
+### AI Prediction
+![Prediction](ai-prediction.png)
+
+### Weekly Chart
+![Chart](health-chart.png)
+
 
 ## 📁 Project Files
 
@@ -57,7 +59,6 @@ index.html
 style.css  
 script.js
 
----
 
 ## 💡 Purpose of the Project
 
