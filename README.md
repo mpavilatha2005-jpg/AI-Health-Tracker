@@ -1,6 +1,6 @@
 # 🧠 AI Lifestyle & Health Tracker
 
-A mini web application that analyzes daily lifestyle habits and predicts overall health status.
+A mini web application that analyzes daily lifestyle habits and predicts overall health status using simple AI-based logic built with HTML, CSS, and JavaScript.
 
 
 🚀 Live Demo:  
