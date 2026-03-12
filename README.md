@@ -1,11 +1,18 @@
 # 🧠 AI Lifestyle & Health Tracker
 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Chart.js](https://img.shields.io/badge/Chart.js-Visualization-green)
+
 A mini web application that analyzes daily lifestyle habits and predicts overall health status using simple AI-based logic built with HTML, CSS, and JavaScript.
 
 
 🚀 Live Demo:  
 https://mpavilatha2005-jpg.github.io/AI-Health-Tracker/
 
+📂 GitHub Repository  
+https://github.com/mpavilatha2005-jpg/AI-Health-Tracker
 
 ## 🚀 Features
 
