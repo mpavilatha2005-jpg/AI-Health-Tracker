@@ -3,6 +3,10 @@
 A mini web application that analyzes daily lifestyle habits and predicts overall health status.
 
 
+🚀 Live Demo:  
+https://mpavilatha2005-jpg.github.io/AI-Health-Tracker/
+
+
 ## 🚀 Features
 
 ✔ Health Score based on lifestyle inputs  
